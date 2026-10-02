@@ -40,7 +40,7 @@ public class HelloController {
                   <li>Github ID: <a href="https://github.com/%s">%s</a></li>
                   <li>Team: <a href="/team">%s</a></li>
                 </ul>
-                """, Developer.getName(), Developer.getGithubId(), Developer.getGithubId(), Developer.getTeam().getName());
+                """, Developer.getName(), Developer.getGitHubId(), Developer.getGitHubId(), Developer.getTeam().getName());
     }
 
     /**
